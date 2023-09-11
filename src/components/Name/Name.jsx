@@ -13,7 +13,7 @@ export default function Name() {
     return (
         <div className="grid justify-center text-center">
             <span className={`text-7xl`}>
-                Hi, I'm <br className="md:hidden" /> Hector Luis!
+                Hi, I{"'"}m <br className="md:hidden"/> Hector Luis!
             </span>
             <p className={`${oswald.className} text-xl`}>Full Stack Web Developer</p>
             <div className="w-full flex justify-around text-4xl">
