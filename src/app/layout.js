@@ -1,9 +1,11 @@
 import './globals.css'
+//COMPONENTS
 import Nav from '@/components/Nav/Nav'
+//GOOGLE FONT
 import {Bebas_Neue} from "next/font/google"
 
 export const metadata = {
-  title: '___Hector_Luis2___',
+  title: '___Hector_Luis___',
   description: '',
 }
 

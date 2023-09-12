@@ -1,6 +1,7 @@
 import React from "react";
 import { BiLogoInstagram, BiLogoGithub, BiLogoLinkedinSquare } from "react-icons/bi";
 import style from "./Name.module.css"
+
 //GOOGLE FONT
 import { Oswald } from "next/font/google"
 
@@ -12,7 +13,7 @@ const oswald = Oswald({
 export default function Name() {
     return (
         <div className="grid justify-center text-center">
-            <span className={`text-7xl`}>
+            <span className={`text-7xl animate-fade-up animate-once`}>
                 Hi, I{"'"}m <br className="md:hidden"/> Hector Luis!
             </span>
             <p className={`${oswald.className} text-xl`}>Full Stack Web Developer</p>

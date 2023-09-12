@@ -1,4 +1,7 @@
+//COMPONENTS
 import Name from "@/components/Name/Name"
+import Projects from "@/components/Projects/Projects"
+//GOOGLE FONT
 import {Oswald} from "next/font/google"
 
 const oswald = Oswald({
@@ -13,11 +16,12 @@ export default function Home() {
         <div>
           <Name />
         </div>
-        <div className={`${oswald.className} text-lg text-center p-5`}>
+        <div className={`${oswald.className} text-lg text-center p-5 animate-fade`}>
           <p>I am a javascript developer and my mission is overcome myself.
           </p>
         </div>
       </div>
+      <Projects/>
     </div>
   )
 }

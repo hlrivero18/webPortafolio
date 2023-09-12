@@ -6,7 +6,7 @@ export default function Nav() {
     const list = ['About', 'Projects', 'Contact']
 
     return (
-        <nav className={`${style.nav} hidden md:block`}>
+        <nav className={`${style.nav} z-50 hidden md:block backdrop-blur-md bg-white/30`}>
             <ul className="flex justify-around p-5">
                 {list.map((l, i) =>
                     <li className="text-white text-xl flex" key={i}>
