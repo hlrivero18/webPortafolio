@@ -2,6 +2,8 @@
 import Name from "@/components/Name/Name"
 import Projects from "@/components/Projects/Projects"
 import About from "@/components/about/about"
+import Contact from "@/components/contacts/contact"
+import Footer from "@/components/footer/footer"
 //GOOGLE FONT
 import { Oswald } from "next/font/google"
 
@@ -26,7 +28,8 @@ export default function Home() {
       </div>
       <About/>
       <Projects />
-      
+      <Contact/>
+      <Footer/>
     </div>
   )
 }

@@ -22,14 +22,14 @@ export default function Name() {
                 Hi, I{"'"}m <br className="md:hidden" /> Hector Luis!
             </span>
             <p className={`${ibmPlexMono.className} ${style.description} text-xl`}>Full Stack Web Developer</p>
-            <div className="w-full flex justify-around text-4xl">
-                <a className="rounded-full hover:bg-gray-400 w-10 h-10 inline-flex justify-center items-center" href="https://www.instagram.com/hlrivero18/" target="_blank">
+            <div className="w-full flex justify-around text-4xl mt-2">
+                <a className="backdrop-blur-md bg-white/30 hover:bg-gradient-to-tr from-yellow-500 via-orange-600 to-fuchsia-700 rounded-full p-1" href="https://www.instagram.com/hlrivero18/" target="_blank">
                     <BiLogoInstagram />
                 </a>
-                <a className="rounded-full hover:bg-gray-400 w-10 h-10 inline-flex justify-center items-center" href="https://github.com/hlrivero18" target="_blank">
+                <a className="backdrop-blur-md bg-white/30 hover:bg-black rounded-full p-1" href="https://github.com/hlrivero18" target="_blank">
                     <BiLogoGithub />
                 </a>
-                <a className="rounded-full hover:bg-gray-400 w-10 h-10 inline-flex justify-center items-center" href="https://www.linkedin.com/in/hector-luis-rivero-311578260/" target="_blank">
+                <a className="backdrop-blur-md bg-white/30 hover:bg-blue-900 rounded-full p-1" href="https://www.linkedin.com/in/hector-luis-rivero-311578260/" target="_blank">
                     <BiLogoLinkedinSquare />
                 </a>
             </div>
