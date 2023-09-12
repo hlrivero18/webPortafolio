@@ -21,7 +21,7 @@ export default function About() {
         <div className={`${oswald.className} p-5 md:p-10 xl:w-4/5 m-auto`}>
             <h1 className="text-2xl pb-4">Me llamo Hector Luis Rivero y soy...</h1>
             <div className="flex flex-col-reverse lg:grid lg:grid-cols-2">
-                <div className={`${ibmPlexMono.className} grid gap-2 text-sm md:text-base py-4`}>
+                <div className={`${ibmPlexMono.className} grid gap-2 text-sm py-4`}>
                     <p>
                         Desarollador Javascript, agil, autodidacta y responsable, me gusta resolver problemas
                         usando las herramientas tecnologicas que se nos presentan dia a dia, siempre con una

@@ -7,9 +7,9 @@ export default function Nav() {
 
     return (
         <nav className={`${style.nav} z-50 hidden md:block backdrop-blur-md bg-white/30`}>
-            <ul className="flex justify-around p-3">
+            <ul className="flex justify-around p-2">
                 {list.map((l, i) =>
-                    <li className="text-white text-lg flex" key={i}>
+                    <li className="text-white text-base flex" key={i}>
                         <a href={`#${l.toLowerCase()}`}>
                             {l}
                         </a>
