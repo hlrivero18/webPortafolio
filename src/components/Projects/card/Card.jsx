@@ -16,7 +16,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 export default function Card(props) {
     const { name, imagen, description, deployment } = props
     return (
-        <div className={`${oswald.className} animate-fade-down animate-once md:w-[50rem] relative rounded-lg p-5 backdrop-blur-sm bg-white/30 w-full`}>
+        <div className={`${oswald.className} animate-fade-down animate-once md:w-[40rem] relative rounded-lg p-5 backdrop-blur-sm bg-white/30 w-full`}>
             <h1 className="text-xl border-b-[3px] w-40">{name}</h1>
            <a href={deployment} target="_blank" className="flex justify-around w-full p-4">
                 {imagen && 
@@ -26,7 +26,7 @@ export default function Card(props) {
                 </>}
           </a>
 
-            <p className={`${ibmPlexMono.className} text-black text-sm`}>
+            <p className={`${ibmPlexMono.className} text-black text-xs`}>
                 {description}
             </p>
         </div>

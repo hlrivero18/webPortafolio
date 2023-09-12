@@ -1,6 +1,7 @@
 //COMPONENTS
 import Name from "@/components/Name/Name"
 import Projects from "@/components/Projects/Projects"
+import About from "@/components/about/about"
 //GOOGLE FONT
 import { Oswald } from "next/font/google"
 
@@ -19,11 +20,13 @@ export default function Home() {
         </div>
         <div className={`${oswald.className} text-lg text-center p-5 animate-fade-down animate-once`}>
           <p>
-            {'"I am a javascript developer and my mission is overcome myself."'}
+            {'"Soy un desarrollador JavaScript y mi mision es superarme a mi mismo."'}
           </p>
         </div>
       </div>
+      <About/>
       <Projects />
+      
     </div>
   )
 }
