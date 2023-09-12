@@ -2,12 +2,13 @@
 import Name from "@/components/Name/Name"
 import Projects from "@/components/Projects/Projects"
 //GOOGLE FONT
-import {Oswald} from "next/font/google"
+import { Oswald } from "next/font/google"
 
 const oswald = Oswald({
-    weight:["400"],
-    subsets: ["latin"]
+  weight: ["400"],
+  subsets: ["latin"]
 })
+
 
 export default function Home() {
   return (
@@ -16,12 +17,13 @@ export default function Home() {
         <div>
           <Name />
         </div>
-        <div className={`${oswald.className} text-lg text-center p-5 animate-fade`}>
-          <p>I am a javascript developer and my mission is overcome myself.
+        <div className={`${oswald.className} text-lg text-center p-5 animate-fade-down animate-once`}>
+          <p>
+            {'"I am a javascript developer and my mission is overcome myself."'}
           </p>
         </div>
       </div>
-      <Projects/>
+      <Projects />
     </div>
   )
 }

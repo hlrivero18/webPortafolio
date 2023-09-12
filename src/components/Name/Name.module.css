@@ -1,10 +1,11 @@
-/* .name{
+.description{
     display: block;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 16ch;
+    width: 20ch;
+    margin: auto;
 
-    animation: typing 2.5s steps(16), blink .5s infinite step-end alternate;
+    animation: typing 2s steps(20), blink .5s infinite step-end alternate;
     overflow: hidden;
 }
 
@@ -18,4 +19,4 @@
     50% {
         border-color: transparent;
     }
-} */
+}
