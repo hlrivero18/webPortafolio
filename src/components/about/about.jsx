@@ -49,7 +49,7 @@ export default function About() {
                     </p>
                 </div>
                 <div className="md:w-96 md:h-96 m-auto lg:ml-auto">
-                    <img className="w-full h-full rounded-full border-[10px]" src={imges[0]} alt="abo" />
+                    <img className="w-full h-full rounded-full border-[10px]" src={imges[1]} alt="abo" />
                 </div>
             </div>
         </div>
