@@ -11,19 +11,19 @@ export default function Projects() {
     const info = [
         {
             name: "PokeApp",
-            img: ["https://res.cloudinary.com/dgbovhcre/image/upload/v1694477806/wnyqarf2eqm15sofh97r.png", "https://res.cloudinary.com/dgbovhcre/image/upload/v1694477806/dculwanppsck4mqebn5g.png"],
+            img: ["https://res.cloudinary.com/pokeapp/image/upload/v1694477806/wnyqarf2eqm15sofh97r.png", "https://res.cloudinary.com/pokeapp/image/upload/v1694477806/dculwanppsck4mqebn5g.png"],
             description: "PokeApp es una SPA(single page aplication), desarrollada con ReactJs, ExpressJs, Sequelize y PostgreSQL.",
             deployment: "https://pokemon-omega-three.vercel.app/"
         },
         {
             name: "BOHO",
-            img: ["https://res.cloudinary.com/dgbovhcre/image/upload/v1694479235/f9jxed0rsccte2lw7fwp.png", "https://res.cloudinary.com/dgbovhcre/image/upload/v1694479234/erppvemm9h8xduvfl518.png"],
+            img: ["https://res.cloudinary.com/pokeapp/image/upload/v1694479235/f9jxed0rsccte2lw7fwp.png", "https://res.cloudinary.com/pokeapp/image/upload/v1694479234/erppvemm9h8xduvfl518.png"],
             description: "BOHO es un sitio web de compra/venta de tickets para eventos recreativos, BOHO fue desarrollado por siete personas usando ReactJs, Tailwind-CSS, ExpressJs, Sequelize y PostgreSQL.",
             deployment: "https://pf-ptb-grupo-06.vercel.app/"
         },
         {
             name: 'Calculadora de Edad',
-            img: ["https://res.cloudinary.com/dgbovhcre/image/upload/v1694523457/rnbk1nhnxnslrpgdsiwa.png", "https://res.cloudinary.com/dgbovhcre/image/upload/v1694523359/cowivzr9txcn9bym8r3o.png"],
+            img: ["https://res.cloudinary.com/pokeapp/image/upload/v1694523028/vzmlr9tgkfjbxrlpykxa.png", "https://res.cloudinary.com/pokeapp/image/upload/v1694523359/cowivzr9txcn9bym8r3o.png"],
             description: "Es un sitio Web donde proporcionas tu fecha de nacimiento y como resultado conoces cuantos años, meses y dias tienes."
         }
     ]

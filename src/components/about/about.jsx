@@ -1,5 +1,6 @@
 import React from "react";
 import { SiNextdotjs, SiReact, SiJavascript, SiExpress, SiSequelize, SiPostgresql, SiNodedotjs } from "react-icons/si";
+import me from './img/me_3.jpg'
 //GOOGLE FONT
 import { Oswald, IBM_Plex_Mono } from "next/font/google"
 
@@ -12,9 +13,6 @@ const ibmPlexMono = IBM_Plex_Mono({
     weight: ["400"],
     subsets: ["latin"]
 })
-
-
-const imges = ["https://res.cloudinary.com/dgbovhcre/image/upload/v1694546731/Img/Polish_20230912_161659338_cef8t8.png", "https://res.cloudinary.com/dgbovhcre/image/upload/v1694533166/me_3_usjxsm.jpg", "https://res.cloudinary.com/dgbovhcre/image/upload/v1694533910/vu7we85asc59cbzzpzau.jpg"]
 
 export default function About() {
     return (
@@ -49,7 +47,7 @@ export default function About() {
                     </p>
                 </div>
                 <div className="md:w-96 md:h-96 m-auto lg:ml-auto">
-                    <img className="w-full h-full rounded-full border-[10px]" src={imges[1]} alt="abo" />
+                    <img className="w-full h-full rounded-full border-[10px]" src={me.src} alt="abo" />
                 </div>
             </div>
         </div>
